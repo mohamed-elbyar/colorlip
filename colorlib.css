@@ -1,0 +1,575 @@
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+.home {
+    background-image: url(https://preview.colorlib.com/theme/pato/images/slide1-01.jpg);
+    height: 100vh;
+}
+
+.l1 {
+    color: white;
+    
+}
+
+
+nav li {
+
+    list-style: none;
+    float: left;
+    margin: 35px;
+
+
+}
+
+.logo {
+    background-color: black;
+    width: 80px;
+    height: 50px;
+    float: left;
+    margin: 30px;
+    margin-left: 80px;
+}
+
+.fix {
+    clear: both;
+}
+
+.hometext {
+    text-align: center;
+
+}
+
+.he2 {
+    font-size: 60px;
+    font-family:
+        Courgette;
+    text-align: center;
+    color: white;
+    margin: 30px;
+    animation: slidedow 2s;
+}
+@keyframes slidedow{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+.he3 {
+    font-family:
+        100, italic, latin - font !;
+    text-align: center;
+    color: white;
+    font-size: 90px;
+    margin: 30px;
+    animation: slidedown 2s;
+    animation:  color 2s;
+}
+@keyframes slidedown{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+@keyframes color{
+    0%{
+        opacity: .5;
+    }
+    100%{
+        opacity: 1;
+    }
+
+}
+
+.bo1 {
+    border: 2px;
+    width: 100px;
+    height: 20px;
+    border-radius: 7px;
+    margin: 30px;
+    animation: slidedwn 2s;
+    
+}
+@keyframes slidedwn{
+    0%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+
+.socond {
+    width: 80%;
+    background-color: #EFEFEF;
+    margin: auto;
+    margin-top: 70px;
+    overflow: hidden;
+}
+
+.socond img {
+    height: 350px;
+    margin-right: 100px;
+    border-radius: 20px;
+    background-color: #EFEFEF;
+    
+}
+.socond img:hover{
+    transform: scale(1.1);
+}
+
+.textimage {
+
+    text-align: center;
+    width: 35%;
+    float: left;
+    margin-right: 150px;
+    margin-left: 100px;
+
+}
+
+.ha2 {
+    color:
+        RGB(214, 28, 34);
+    font-size: 30px;
+    font-family:
+        "Courgette", cursive;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+.ha3 {
+    color:
+        RGB(34, 34, 34);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 15px;
+    font-size: 50px;
+}
+
+.pa1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    opacity: .5;
+    margin-top: 30px;
+}
+
+.socond.img {
+    float: right;
+    border-radius: 30%;
+    width: 10%;
+
+}
+
+.fix {
+    clear: both;
+}
+
+.dis1 {
+    background-image: url(https://preview.colorlib.com/theme/pato/images/bg-intro-01.jpg);
+    height: 50vh;
+    margin-bottom: 100px;
+
+}
+
+.textdis1 {
+    text-align: center;
+    margin-top: 50px;
+    padding: 60px;
+}
+
+.th2 {
+    color:
+        RGB(214, 28, 34);
+    font-size: 30px;
+    font-family:
+        "Courgette", cursive;
+    font-weight: 400;
+    padding: 10px;
+    margin-top: 70px;
+
+}
+
+.th3 {
+    color:
+        RGB(255, 255, 255);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 15px;
+    font-size: 50px;
+}
+
+
+.fours{
+    width: 80%;
+   
+    margin: auto; 
+
+}
+.box1 img:hover{
+    transform: scale(1.1);
+}
+
+.box1 img {
+    float: left;
+    height: 210px;
+    margin: 20px;
+    padding: 0;
+    border-radius: 20px;
+
+}
+.fourh{
+    float: left;
+    width: 350px;
+    padding: 1%;
+    margin-left: 20px;
+}
+.fixed{
+    clear: both;
+}
+
+.box1 h4 {
+    padding: 20px;
+    margin-left: 10px;
+    font-size: 22px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.box1 p {
+    margin-left: 30px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    opacity: .5;
+
+
+    /* width: 20px; */
+}
+
+.fiveslide {
+    width: 80%;
+    margin: auto;
+
+
+
+}
+
+.navfive {
+    padding: 40px;
+    margin-top: 100px;
+    
+}
+
+.navfive h3 {
+    text-align: center;
+    color:
+        RGB(214, 28, 34);
+    font-size: 30px;
+    font-family:
+        "Courgette", cursive;
+    font-weight: 400;
+
+}
+
+.navfive h4 {
+    text-align: center;
+    color:
+        RGB(34, 34, 34);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 15px;
+    font-size: 50px;
+
+}
+
+.pho1 {
+
+    background-image: url(https://preview.colorlib.com/theme/pato/images/our-menu-01.jpg);
+    width: 400px;
+    height: 600px;
+    text-align: center;
+    border-radius: 10px;
+    float: left;
+
+}
+
+.but1 {
+    margin-top: 250px;
+    border: 2px;
+    width: 100px;
+    height: 40px;
+    border-radius: 7px;
+}
+
+.pho2 {
+    background-image: url(https://preview.colorlib.com/theme/pato/images/our-menu-05.jpg);
+    width: 400px;
+    height: 600px;
+    text-align: center;
+    margin-left: 15px;
+    border-radius: 10px;
+    float: left;
+
+
+
+}
+
+.pho3 {
+    background-image: url(https://preview.colorlib.com/theme/pato/images/our-menu-08.jpg);
+    width: 350px;
+    height: 300px;
+    float: right;
+    border-radius: 10px;
+
+}
+
+.but3 {
+    margin-top: 100px;
+    border: 2px;
+    width: 100px;
+    height: 40px;
+    border-radius: 7px;
+    margin-left: 130px;
+}
+
+.pho4 {
+    background-image: url(https://preview.colorlib.com/theme/pato/images/our-menu-10.jpg);
+    margin-top: 20px;
+    width: 350px;
+    height: 280px;
+    float: right;
+    border-radius: 10px;
+
+}
+
+.but4 {
+
+    margin-top: 100px;
+    border: 2px;
+    width: 100px;
+    height: 40px;
+    border-radius: 7px;
+    margin-left: 130px;
+}
+
+.pho5 {
+    background-image: url(https://preview.colorlib.com/theme/pato/images/our-menu-13.jpg);
+    width: 815px;
+    height: 200px;
+    float: left;
+    margin-top: 10px;
+    border-radius: 10px;
+    overflow:hidden;
+}
+
+
+
+
+.but5 {
+    text-align: center;
+    margin-top: 100px;
+    border: 2px;
+    width: 100px;
+    height: 40px;
+    border-radius: 7px;
+    margin-left: 300px;
+}
+
+.pho6 {
+    background-image: url(https://preview.colorlib.com/theme/pato/images/our-menu-16.jpg);
+    float: right;
+    width: 350px;
+    height: 200px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.but6 {
+    margin-top: 100px;
+    border: 2px;
+    width: 100px;
+    height: 40px;
+    border-radius: 7px;
+    margin-left: 130px;
+}
+
+.tabel {
+    margin-top: 1000px;
+    margin-left: 150px;
+    width: 80%;
+
+
+
+
+}
+
+.date1 {
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    opacity: .5;
+    font-size: 15px;
+}
+
+
+.navsix h5 {
+    margin-top: 200px;
+    margin-left: 150px;
+    color:
+        RGB(214, 28, 34);
+    font-size: 30px;
+    font-family:
+        "Courgette", cursive;
+    font-weight: 400;
+
+}
+
+.navsix h4 {
+    margin-left: 90px;
+    color:
+        RGB(34, 34, 34);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 15px;
+    font-size: 50px;
+}
+
+.lap1 {
+
+    float: left;
+    margin-right: 50px;
+
+}
+
+.lap3 {
+    float: left;
+    margin-right: 50px;
+}
+
+.lap5 {
+
+    margin-right: 50px;
+    float: left;
+}
+
+.buttabel {
+    border: 2px;
+    width: 100px;
+    height: 40px;
+    border-radius: 7px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.fix {
+    clear: both;
+}
+
+.phlabel {
+    float: right;
+}
+
+.phlabel img {
+    width: 80%;
+    top: 10%;
+    height: 400px;
+    margin-top: 50px;
+    margin-right: 100px;
+    float: left;
+    border-radius: 10px;
+overflow: hidden;
+
+
+}
+.phlabel img:hover{
+    transform: scale(1.1);
+}
+
+.vedio1 {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.vedio2 {
+
+    height: 70vh;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.hf {
+
+    color:
+        RGB(214, 28, 34);
+    font-size: 30px;
+    font-weight: 400;
+    font-family:
+        "Courgette", cursive;
+}
+
+.hf2 {
+
+    font-size: 50px;
+    color:
+        RGB(255, 255, 255);
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
+.blog{
+    width: 80%;
+    margin: auto;
+    padding-top: 7%;
+    
+}
+.blog h3{
+    text-align: center;
+    color:
+    RGB(214, 28, 34);
+font-size: 30px;
+font-weight: 400;
+font-family:
+    "Courgette", cursive;
+}
+
+.blog h4{
+    text-align: center;
+    font-size: 50px;
+    color:
+    RGB(34, 34, 34);
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
+
+.boxs img{
+    float: left;
+    height: 210px;
+    margin: 10px;
+     padding: 0;
+     border-radius: 20px;
+     overflow: hidden;
+
+}
+.boxs img:hover{
+    transform: scale(1.1);
+}
+.words{
+   float: left;
+   width: 25%;
+  padding: 40px;
+}
+.fixed{
+    clear: both;
+}
